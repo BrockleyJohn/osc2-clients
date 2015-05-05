@@ -1,3 +1,4 @@
+AddType x-httpd-php55 .php
 # $Id$
 #
 # This is used with Apache WebServers
