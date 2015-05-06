@@ -26,6 +26,8 @@ class Cache
 
             return false;
         }
+				
+				if ($key == 'configuration') return true; //JAF hack - disable config caching for development
 
         if (is_writable(OSCOM_BASE_DIR . 'work/')) {
             return file_put_contents(OSCOM_BASE_DIR . 'work/' . $key . '.cache', serialize($data)) !== false;

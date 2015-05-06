@@ -234,4 +234,5 @@
                         array('title' => TEXT_CACHE_MANUFACTURERS, 'code' => 'manufacturers', 'file' => 'manufacturers_box-language.cache', 'multiple' => true),
                         array('title' => TEXT_CACHE_ALSO_PURCHASED, 'code' => 'also_purchased', 'file' => 'also_purchased-language.cache', 'multiple' => true)
                        );
+  $messageStack->add('Config caching is turned off', 'warning'); //JAF hack - config cache 
 ?>
